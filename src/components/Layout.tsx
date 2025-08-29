@@ -29,6 +29,8 @@ function Layout({ children }: { children: ReactNode }) {
             <Link to="/exportcsv" className={navItemClass("/exportcsv")}><FileEarmarkArrowDownFill size={16} />Export CSV</Link>
             <Link to="/checkbox" className={navItemClass("/checkbox")}><CheckSquareFill size={16} />Check Box</Link>
             <Link to="/multiselectdropdown" className={navItemClass("/multiselectdropdown")}><MenuButtonWideFill size={16} />Multi Select DDL</Link>
+            <Link to="/district" className={navItemClass("/district")}><MapFill size={16} />District</Link>
+
           </nav>
         </aside>
 
